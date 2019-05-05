@@ -60,6 +60,6 @@ gem 'will_paginate', '~> 3.0.7'
 
 group :production do
   #use postgres on heroku
-  gem 'pg'
+  gem 'pg', '~> 0.20'
   gem 'rails_12factor'
 end
