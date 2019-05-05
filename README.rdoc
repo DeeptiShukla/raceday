@@ -1,6 +1,12 @@
 == README
 
-This is a web application to access racers data. 
+This is a web application to access racers data.
+
 It has MongoDB integration through the use of MongoDB Ruby Driver.
-The goal is to manage Racers in the MongoDB racers collection.
+The goal is to manage Racers in the MongoDB racers collection (in racers database).
+The data was imported in the racers collection from a json file using the mongoimport command.
+The racers database has been setup over at Mongolab (for heroku deployment).
+
+Heroku app link:
+https://raceday524.herokuapp.com/
 
